@@ -1,4 +1,3 @@
-
 import webbrowser
 import pyautogui
 import time
@@ -12,14 +11,14 @@ webbrowser.open('https://web.whatsapp.com/')
 time.sleep(10)
 print(pyautogui.position())
 
-# click on search bar
+# Klik tombol new chat
 pyautogui.click(168, 215)
 pyautogui.typewrite(nama_org)
 
 
 time.sleep(5)
 
-# click on person
+# Klik nama penerima
 pyautogui.click(171, 361)
 
 time.sleep(5)
@@ -27,4 +26,6 @@ time.sleep(5)
 pyautogui.typewrite(pesan)
 
 time.sleep(2)
-pyautogui.click(1847, 954)  # click on Send button
+
+# Klik tombol kirim
+pyautogui.click(1847, 954)  
